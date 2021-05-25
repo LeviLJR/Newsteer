@@ -1,0 +1,109 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+nav a {
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  border-radius: 0.3rem 0.3rem 0 0;
+  background-color: rgb(135, 143, 223);
+  color: white;
+}
+
+header h1 {
+  margin-left: 1.8rem;
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+ul li {
+  margin-right: 3rem;
+  display: inline;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+body {
+  margin: 0;
+  font-weight: 400;
+  display: grid;
+  justify-content: center;
+  background-color: rgb(236, 236, 236);
+}
+
+figure {
+  margin: 2rem 6rem;
+  font-size: 0.9rem;
+}
+
+main {
+  width: 52rem;
+  background-color: rgb(255, 255, 255);
+  padding: 1.5rem 0 2rem 4rem;
+  border-radius:  0 0 0.5rem 0.5rem;
+  margin-bottom: 3rem;
+  font: inherit;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+
+article {
+  width: 52rem;
+  line-height: 1.7rem;
+  text-align: justify;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 0;
+  margin-right: 4rem;
+}
+
+aside {
+  padding: 1rem 1rem 3rem 1.2rem;
+  border-radius: 0 0 0.3rem 0;
+  background-color: rgb(157, 146, 197);
+  justify-content: end;
+  line-height: 1.7rem;
+  margin-top: -1.5rem;
+  font-size: 0.9rem;
+  margin-bottom: -2rem;
+}
+
+aside h3, aside h4{
+  margin:0;
+  color: black;
+}
+
+aside div {
+  padding: 1.2rem 1rem 3rem 2rem;
+  background-color: rgb(213, 212, 253);
+  margin-bottom: 0.8rem;
+  border-radius: 0.5rem;
+  margin-right: 0.2rem;
+}
+
+#sobre {
+  display: grid;
+  margin-top: -21rem;
+}
